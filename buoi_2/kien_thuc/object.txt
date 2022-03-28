@@ -1,0 +1,36 @@
+{
+        id: 1,
+        initialFlg: false,
+        url: "mts",
+        sysUserCode: "usr000000002",
+        sysOrganizationCode: "ORG000000007",
+        accessToken: "eyJhbGcskjkfdjfkdjfkdfdfd123fdnfdff",
+      }
+
+
+
+
+{
+          "companyCode": "1111",
+          "authorizationCode": 1,
+          "matchingContribution": true,
+          "retirementAge": 65,
+          "isReit": true,
+          "opInfo": {
+            "code": 1,
+            "name": "NRK",
+            "loginUrl": "https://www.nrkn.co.jp/rk/login.html",
+            "passwordResetUrl": "https://www.nrkn.co.jp/webapp/nrk/MeIdReregRenotice",
+            "isYield": true
+          },
+          "rkInfo": {
+            "code": 1,
+            "name": "NRK",
+            "loginUrl": "https://www.nrkn.co.jp/rk/login.html",
+            "passwordResetUrl": "https://www.nrkn.co.jp/webapp/nrk/MeIdReregRenotice",
+            "isYield": true
+          },
+          "hrInformationLinkFlg": true,
+          "dispColleagueLimit": 1000,
+          "investmentEvaluationGap": 20
+        }

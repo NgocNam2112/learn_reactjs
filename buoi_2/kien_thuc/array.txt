@@ -1,0 +1,65 @@
+[
+        {
+          id: 1,
+          url: "mts"
+       },
+       {
+         id: 2,
+         url: "isid"
+       },
+       {
+         id: 3,
+         url: "apple"
+       }
+      ]
+
+
+{
+        subscriptionDate: "2019-08-24",
+        initialSubscriptionDate: "2010-01-10",
+        totalAssetValuation: 3700000,
+        valuationGainLoss: 2000,
+        interest: 2.22,
+        cumulativeContributionAmount: 3000000,
+        assetsValuation: [
+          //あなたの保有資産の評価額
+          {
+            assetclassCode: 1,
+            assetclassName: "バランス",
+            assetclassColorCode: "#051A4D",
+            assetRatioTotal: 20, // assetProductsのassetRatioの合計
+            assetValuationTotal: 123456789, // assetProductsのassetValuationの合計
+            assetProducts: [
+              {
+                productId: "JP90C0000R30",
+                productName:
+                  "三菱ＵＦＪ プライムバランス（安定型）（確定拠出年金）",
+                operationCompanyShort: "三菱UFJ",
+                assetValuation: 123456789,
+                assetRatio: 20,
+                profitAndLoss: -400,
+                profitAndLossRatio: -2.3, // 商品別資産評価額の損益 / 取得価額累計（小数点以下3位まで表示）
+              },
+            ],
+          },
+        ],
+        investmentRatios: [
+          //あなたの保有資産の詳細情報（各資産への投資割合）
+          {
+            investmentClassCode: 1,
+            investmentClassName: "バランス",
+            investmentClassColorCode: "#051A4D",
+            investmentRatioTotal: 20, // investmentProductsのassetRatioの合計
+            investmentProducts: [
+              {
+                productId: "JP90C0000R30",
+                productName:
+                  "三菱ＵＦＪ プライムバランス（安定型）（確定拠出年金）",
+                operationCompanyShort: "三菱UFJ",
+                areaName: "国内",
+                assetRatio: 20,
+              },
+            ],
+          },
+        ],
+      }
